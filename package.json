@@ -4,7 +4,7 @@
   "description": "description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "homepage": "https://github.com/sytinsytin-art/otus-project#readme",
   "dependencies": {
     "lodash-es": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.10",
+    "@babel/preset-env": "^8.0.7",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2"
   }
 }
